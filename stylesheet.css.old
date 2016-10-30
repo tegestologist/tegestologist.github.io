@@ -1,0 +1,170 @@
+/* * { */
+/*     font-family: Arial, san-serif; */
+/*     background: white; */
+/* } */
+
+/* html, body { */
+/*     margin: 0; */
+/*     height: 100%; */
+/*     background: linear-gradient(#0068aa, black) fixed; */
+/*     background-repeat: no-repeat; */
+/*     background-size: cover; */
+/*     /\*!  *\/ */
+/*     z-index: 0; */
+/* } */
+
+/* header { */
+/*     background: #868686; */
+/*     /\*! height: 20%; *\/ */
+/*     /\*! max-height: 100px; *\/ */
+/*     /\*! margin-top: 1%; *\/ */
+/*     box-shadow: 0 0 20px black; */
+/*     opacity: .70; */
+/*     z-index: 200; */
+/* } */
+
+/* nav { */
+/*     height: 750px; */
+/*     background: linear-gradient(#0068aa, black) fixed; */
+/*     background-repeat: no-repeat; */
+/*     background-size: cover; */
+/*     z-index: 0; */
+/* } */
+
+/* #light-brain-scan { */
+/*     position: absolute; */
+/*     top: 10%; */
+/*     right: 5%; */
+/*     box-shadow: 20px 0px 40px black; */
+/* } */
+
+/* #true-header-1 { */
+/*     display: none; */
+/* } */
+
+/* .big-name-glass-container { */
+/*     position: absolute; */
+/*     left: 5%; */
+/*     bottom: 30%; */
+/*     overflow: hidden; */
+/*     border: inset gray 1px; */
+/*     background: rgba(244, 244, 244); */
+/*     background: rgba(244, 244, 244, .3); */
+/*     box-shadow: 50px 50px 50px black */
+/* } */
+
+/* #big-name { */
+/*     font-size: 7vw; */
+
+/*     position: relative; */
+/*     /\*! top: 75%; *\/ */
+/*     /\*! left: 7%; *\/ */
+/*     background: rgba(233,233,233,.35); */
+/*     /\*! z-index: 1; *\/ */
+/*     color: black; */
+/*     padding: 1%; */
+/* } */
+
+/* .glass { */
+/*     background: #b8bd9f; */
+/*     /\*! opacity: .3; *\/ */
+/*     width: 100%; */
+/*     height: 100%; */
+/*     /\*! position: relative; *\/ */
+/*     font-size: 5vw; */
+/*     /\*! z-index: -2; *\/ */
+/*     /\*! top: 200px; *\/ */
+/*     padding: 1%; */
+/* } */
+
+/* .relative-glass { */
+/*     background: #b8bd9f; */
+/*     width: 25%; */
+/*     height: auto; */
+/*     position: relative; */
+/*     font-size: 5vw; */
+/*     top: 10%; */
+/*     padding: 1%; */
+/*     box-shadow: 20px 20px 30px gray; */
+/*     border: solid white 1px; */
+/*     border-radius:  0 0 0 100; */
+/*     text-indent: 2em; */
+/*     margin-left: -10% */
+/* } */
+
+
+
+/* section { */
+/*     height:     750px; */
+/*     left:       3%; */
+/*     overflow:   auto; */
+/* } */
+
+/* section:nth-child(even) { */
+/*     background: white; */
+/* } */
+
+/* section:nth-child(odd) { */
+/*     background: black; */
+/* } */
+
+/* img[src$="18349_n1127brainperceptionmarkarmaorgbf.jpg"] { */
+/*     float: right; */
+/*     right: 20%; */
+/*     position: relative; */
+/*     top: 10%; */
+/* } */
+
+/* #hud { */
+/*     background: black; */
+/*     width: 100%; */
+/*     height: 20%; */
+/*     float: right; */
+/*     position: fixed; */
+/*     bottom: 0%; */
+/*     z-index: 3; */
+/* } */
+
+
+/* #hud ul { */
+/*     list-style: none; */
+/*     align-content: right; */
+/*     float: right; */
+/*     position: relative; */
+/*     right: 20%; */
+/*     background: transparent; */
+/* } */
+
+/* #hud li { */
+/*     display: inline; */
+/* } */
+
+/* button { */
+/*     background:     none; */
+/*     border:         none; */
+/*     outline:        transparent; */
+/*     cursor:         pointer; */
+/*     font-size:      medium; */
+/* } */
+
+
+
+
+/* #v-section { */
+/*     background: white; */
+/*     height: 750px; */
+/*     left: 3%; */
+/* } */
+
+
+/* #nibs-section { */
+/*     background: black; */
+/*     height: 750px; */
+/*     right: 3%; */
+/* } */
+
+/* #wbmh-section { */
+/*     background: white; */
+/*     height: 750px; */
+/*     left: 3%; */
+/* } */

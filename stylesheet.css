@@ -1,0 +1,180 @@
+html, body {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+nav {
+    border: thin solid black;
+    background: wheat;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+}
+
+#headshot {
+    padding-top: 70px;
+}
+
+#cv-section {
+    border: thin solid black;
+}
+
+#cv-container {
+    border: thin solid black;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.story-container {
+    border: thin solid black;
+    padding: 5%;
+}
+
+.story-image-placeholder {
+    width: 400px;
+    height: 400px;
+    background: lightgray;
+    border: thin solid black;
+    float: right;
+    margin-top: 3em;
+}
+
+.story-copy {
+    font-size: xx-large;
+    word-spacing: .5em;
+    line-height: 1.75em;
+}
+
+/* vision */
+
+#vision {
+    clear: both;
+    border: thin solid black;
+    height: 750px;
+}
+
+/* nibs */
+
+#nibs {
+    clear: both;
+    border: thin solid black;
+    height: 750px;
+}
+
+/* mhwb */
+
+#mhwb {
+    clear: both;
+    border: thin solid black;
+    height: 750px;
+}
+
+
+/* news */
+
+#news {
+    border: thin solid;
+    height: 60em;
+    overflow: visible;
+    padding-bottom: 10em;
+}
+
+.news-link {
+    float: left;
+    max-width: 25%;
+    width: 25%;
+    height: 10em;
+    text-align: center;
+    box-sizing: border-box;
+    border: thin solid black;
+}
+
+.news-link-image {
+    float: left;
+    max-width: 25%;
+    width: 25%;
+    height: 10em;
+    text-align: center;
+    box-sizing: border-box;
+    border: thin solid black;
+    background: lightgray;
+}
+
+
+#news-link-container {
+    padding-left: 2%;
+    padding-right: 2%;
+    border: thin solid red;
+    margin: 2%;
+    height: 100px;
+
+}
+
+/* posters */
+
+#posters {
+    border: thin solid;
+    height: 30em;
+    overflow: visible;
+    padding-bottom: 10em;
+    clear: both;
+}
+
+#poster-link-container {
+    padding-left: 2%;
+    padding-right: 2%;
+    border: thin solid red;
+    margin: 2%;
+    height: 100px;
+
+}
+
+.poster-link {
+    float: left;
+    max-width: 25%;
+    width: 25%;
+    height: 1em;
+    text-align: center;
+    box-sizing: border-box;
+    border: thin solid black;
+    font-size: x-large;
+    padding-top: 1.5em;
+    padding-bottom: 2.5em;
+}
+
+.poster-link-image {
+    float: left;
+    max-width: 25%;
+    width: 25%;
+    height: 1em;
+    text-align: center;
+    box-sizing: border-box;
+    border: thin solid black;
+    font-size: x-large;
+    padding-top: 1.5em;
+    padding-bottom: 2.5em;
+    background: lightgray;
+}
+
+/* papers */
+
+#papers {
+    border: thin solid black;
+}
+
+#papers-container {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.paper-citation {
+    font-size: large;
+    text-indent: -2em;
+}
