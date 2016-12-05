@@ -1,0 +1,66 @@
+
+#headshot {
+    border-radius:  100%;
+    display:        block;
+    margin-left:    auto;
+    margin-right:   auto;
+    margin-top:     2em;
+    max-width:      75%;
+    height:         auto;
+}
+
+button {
+    background: none;
+    border:     none;
+    font-size:  2em;
+}
+
+
+#image-mount {
+    background: $color-2;
+    margin-top: 0;
+    height: 300px;
+    margin-bottom: 1em;
+}
+
+
+.story-container {
+    border: thin solid $color-1;
+/*    padding: 5%; */
+}
+
+.story-image-placeholder {
+    width: 400px;
+    height: 400px;
+    background: lightgray;
+    border: thin solid $color-1;
+    float: right;
+    margin-top: 3em;
+}
+
+.story-copy {
+    font-size: xx-large;
+    word-spacing: .5em;
+    line-height: 1.75em;
+}
+
+/* vision */
+
+#vision {
+    clear: both;
+    border: thin solid $color-1;
+}
+
+/* nibs */
+
+#nibs {
+    clear: both;
+    border: thin solid $color-1;
+}
+
+/* mhwb */
+
+#mhwb {
+    clear: both;
+    border: thin solid $color-1;
+}

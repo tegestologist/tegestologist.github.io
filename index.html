@@ -3,10 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>Site for J.L. Sanguinetti - Home</title>
-    <link rel="stylesheet" href="/stylesheet.css">
+    <link rel="stylesheet" href="../stylesheets/main.css">
     <meta name="generator" content="Nanoc 4.3.4">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
+
+    <a href="#top">
+      <div id="top-link">
+        <p>Top</p>
+      </div>
+    </a>
 
     <nav>
       <ul>
@@ -23,7 +30,7 @@
     <header>
 
       <div id="image-mount">
-      <img id="headshot" src="./img/jay_closeup.jpg" width="320" height="320" alt="headshot of Jay" title="headshot of Jay">
+        <img id="headshot" src="./img/jay_closeup.jpg" width="320" height="320" alt="headshot of Jay" title="headshot of Jay">
       </div>
 
       <h1>J.L. Sanguinetti, Ph.D.</h1>
@@ -36,6 +43,7 @@
           <button id="cv">cv</button>
         </li>
       </ul>
+
     </header>
 
     <section id="research">
@@ -79,165 +87,354 @@
       <div class="section-wrapper">
         <h3>News</h3>
 
-        <div id="news-link-container">
-
-          <a class="news-link" href="http://www.ustream.tv/recorded/63664670">
-            <p>Consciousness Central</p>
-            <p>(Video)</p>
+        <ul id="news-link-list">
+          <a href="http://www.ustream.tv/recorded/63664670">
+            <div class="news-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p><cite>(Video)</cite></p>
+                  <p><strong>Consciousness Central</strong></p>
+                </li>
+              </div>
+            </div>
           </a>
 
-          <a class="news-link" href="http://www.sciencedaily.com/releases/2013/05/130515094825.htm">          <p>Science Daily</p>
-            <p>'Good Vibration:' Brain Ultrasound Improves Mood</p>
+          <a href="http://www.sciencedaily.com/releases/2013/05/130515094825.htm">
+            <div class="news-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p><cite>'Good Vibration:' Brain Ultrasound Improves Mood</cite></p>
+                  <p><strong>Science Daily</strong></p>
+                </li>
+              </div>
+            </div>
           </a>
 
-          <a class="news-link" href="http://uanews.org/story/good-vibrations-mediating-mood-through-brain-ultrasound">          <p>UA News</p>
-            <p>Mediating Mood through Brain Ultrasound</p></a>
-
-          <a class="news-link" href="http://www.sciencedaily.com/releases/2013/07/130718161525.htm">          <p>Science Daily (different story) Good Vibrations: Mediating</p>
-            <p>Mood Through Brain Ultrasound</p>
+          <a href="http://uanews.org/story/good-vibrations-mediating-mood-through-brain-ultrasound">
+            <div class="news-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p><cite>Mediating Mood through Brain Ultrasound</cite></p>
+                  <p><strong>UA News</strong></p>
+                </li>
+              </div>
+            </div>
           </a>
 
-          <a class="news-link" href="http://www.wired.co.uk/news/archive/2013-07/18/ultrasound-mood-change">          <p>Wired</p>
-            <p>Ultrasound waves applied to the brain can alter patients' moods</p>
+          <a href="http://www.sciencedaily.com/releases/2013/07/130718161525.htm">
+            <div class="news-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p><cite>Mood Through Brain Ultrasound</cite></p>
+                  <p><strong>Science Daily</strong></p>
+                </li>
+              </div>
+            </div>
           </a>
 
-          <a class="news-link" href="http://www.indianexpress.com/news/brain-ultrasound-may-boost-mood-study/1144083/">          <p>The Indian Express</p>
-            <p>Brain ultrasound may boost mood: study</p>
-          </a>
-
-          <a class="news-link" href="http://uanews.org/story/ua-study-your-brain-sees-things-you-don-t?utm_source=arizonadotedu&utm_medium=banner&utm_campaign=feature">          <p>UA News</p>
-            <p>UA Study: Your brain sees things that you don't</p>
-          </a>
-
-          <a class="news-link" href="http://www.pbs.org/newshour/rundown/2013/11/your-brain-sees-things-that-you-dont.html">         <p>PBS NewsHour</p>
-            <p>Your brain sees things that you don't</p></a>
-
-          <a class="news-link" href="http://www.huffingtonpost.com/2013/11/18/brain-processes-information-_n_4276870.html?utm_hp_ref=healthy-living">          <p>Huffington Post</p>
-            <p>Your brain processes information even when you're not conscious of it: study</p>
-          </a>
-
-          <a class="news-link" href="http://www.sciencedaily.com/releases/2013/07/130718161525.htm">          <p>Science Daily</p>
-            <p>Your brain sees things you don't</p>
-          </a>
-
-          <a class="news-link" href="https://youtu.be/8ksSiTt3uSU">          <p>Your brain sees everything!</p>
-          </a>
-
-          <a class="news-link" href="http://www.kurzweilai.net/does-your-brain-see-things-you-dont">          <p>Kurzweil.net</p>
-            <p>Does your brain see things you don't?</p>
-          </a>
-
-          <a class="news-link" href="http://www.el-nacional.com/salud_y_bienestar/cerebro-puede-cosas-ojos-ven_0_299970199.html">          <p>El Nacional</p>
-            <p>Tu cerbro puede ver cosas que tus ojos no ven</p>
-          </a>
-
-          <a class="news-link" href="http://www.huffingtonpost.fr/2013/11/15/perception-cerveau-traitement-informations-cachees_n_4273497.html?utm_hp_ref=france">          <p>Le HuffPost</p>
-            <p>Perception du cerveau: il voit des choses, mais pas nous</p>
-          </a>
-
-          <a class="news-link" href="http://science.orf.at/stories/1728392/">          <p>Science@ORF.at</p>
-            <p>Gehirn: Bedeutung ohne Bewusstsein</p>
-          </a>
-
-          <a class="news-link" href="http://ria.ru/studies/20131115/977120928.html">          <p>Pnahoboctn</p>
-            <p>Мозг "видит" знакомые объекты, даже когда человек этого не осознает</p>
-          </a>
-
-          <a class="news-link" href="http://www.vcharkarn.com/vnews/447785">          <p>Vcharkarn.com</p>
-            <p>สมอง”เห็น”แม้จิตไม่ได้”เห็น”</p>
-          </a>
-
-          <a class="news-link" href="http://www.reddit.com/r/science/comments/1qlwfp/your_brain_sees_things_you_dont_a_new_study/">          <p>Reddit</p>
-          </a>
-
-          <div class="news-link-placeholder">
-            <img  class="news-link-placeholder-image" src="./img/Reddit_logo_and_wordmark.png" width="320" height="107"></img>
+          <div class="news-placeholder-container">
+            <div class="table-cell-container">
+              <img src="./img/Wired_logo.png" width="320" height="66"></img>
+            </div>
           </div>
 
-          <div class="news-link-placeholder">
-            <img  class="news-link-placeholder-image" src="./img/Wired_logo.png" width="320" height="66"></img>
+          <a href="http://www.wired.co.uk/news/archive/2013-07/18/ultrasound-mood-change">
+            <div class="news-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p><cite>Ultrasound waves applied to the brain can alter patients' moods</cite></p>
+                  <p><strong>Wired</strong></p>
+                </li>
+              </div>
+            </div>
+          </a>
+
+          <a href="http://www.indianexpress.com/news/brain-ultrasound-may-boost-mood-study/1144083/">
+            <div class="news-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p><cite>Brain ultrasound may boost mood: study</cite></p>
+                  <p><strong>The Indian Express</strong></p>
+                </li>
+              </div>
+            </div>
+          </a>
+
+          <a href="http://uanews.org/story/ua-study-your-brain-sees-things-you-don-t?utm_source=arizonadotedu&utm_medium=banner&utm_campaign=feature">
+            <div class="news-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p><cite>UA Study: Your brain sees things that you don't</cite></p>
+                  <p><strong>UA News</strong></p>
+                </li>
+              </div>
+            </div>
+          </a>
+
+          <a href="http://www.huffingtonpost.com/2013/11/18/brain-processes-information-_n_4276870.html?utm_hp_ref=healthy-living">
+            <div class="news-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p><cite>Your brain processes information even when you're not conscious of it: study</cite></p>
+                  <p><strong>Huffington Post</strong></p>
+                </li>
+              </div>
+            </div>
+          </a>
+
+          <a href="http://www.sciencedaily.com/releases/2013/07/130718161525.htm">
+            <div class="news-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p><cite>Your brain sees things you don't</cite></p>
+                  <p><strong>Science Daily</strong></p>
+                </li>
+              </div>
+            </div>
+          </a>
+
+          <div class="news-placeholder-container">
+            <div class="table-cell-container">
+              <img src="./img/300px-PBS_Logo.png" width="300" height="160"></img>
+            </div>
           </div>
 
-          <div class="news-link-placeholder">
-            <img  class="news-link-placeholder-image" src="./img/300px-PBS_Logo.png" width="300" height="160"></img>
+          <a href="http://www.pbs.org/newshour/rundown/2013/11/your-brain-sees-things-that-you-dont.html">
+            <div class="news-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p><cite>Your brain sees things that you don't</cite></p>
+                  <p><strong>PBS NewsHour</strong></p>
+                </li>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://youtu.be/8ksSiTt3uSU">
+            <div class="news-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p><cite>Your brain sees everything!</cite></p>
+                  <p><strong>org-here</strong></p>
+                </li>
+              </div>
+            </div>
+          </a>
+
+          <a href="http://www.kurzweilai.net/does-your-brain-see-things-you-dont">
+            <div class="news-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p><cite>Does your brain see things you don't?</cite></p>
+                  <p><strong>Kurzweil.net</strong></p>
+                </li>
+              </div>
+            </div>
+          </a>
+
+          <a href="http://www.el-nacional.com/salud_y_bienestar/cerebro-puede-cosas-ojos-ven_0_299970199.html">
+            <div class="news-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p><cite>Tu cerbro puede ver cosas que tus ojos no ven</cite></p>
+                  <p><strong>El Nacional</strong></p>
+                </li>
+              </div>
+            </div>
+          </a>
+
+          <a href="http://www.huffingtonpost.fr/2013/11/15/perception-cerveau-traitement-informations-cachees_n_4273497.html?utm_hp_ref=france">
+            <div class="news-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p><cite>Perception du cerveau: il voit des choses, mais pas nous</cite></p>
+                  <p><strong>Le HuffPost</strong></p>
+                </li>
+              </div>
+            </div>
+          </a>
+
+          <div class="news-placeholder-container">
+            <div class="table-cell-container">
+              <img src="./img/Reddit_logo_and_wordmark.png" width="320" height="107"></img>
+            </div>
           </div>
 
-        </div>
+          <a href="http://www.reddit.com/r/science/comments/1qlwfp/your_brain_sees_things_you_dont_a_new_study/">
+            <div class="news-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p><cite>title-here</cite></p>
+                  <p><strong>Reddit</strong></p>
+                </li>
+              </div>
+            </div>
+          </a>
+
+          <a href="http://science.orf.at/stories/1728392/">
+            <div class="news-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p><cite>Gehirn: Bedeutung ohne Bewusstsein</cite></p>
+                  <p><strong>Science@ORF.at</strong></p>
+                </li>
+              </div>
+            </div>
+          </a>
+
+          <a href="http://ria.ru/studies/20131115/977120928.html">
+            <div class="news-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p><cite>Мозг "видит" знакомые объекты, даже когда человек этого не осознает</cite></p>
+                  <p><strong>Pnahoboctn</strong></p>
+                </li>
+              </div>
+            </div>
+          </a>
+
+          <a href="http://www.vcharkarn.com/vnews/447785">
+            <div class="news-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p><cite>สมอง”เห็น”แม้จิตไม่ได้”เห็น”</cite></p>
+                  <p><strong>Vcharkarn.com</strong></p>
+                </li>
+              </div>
+            </div>
+          </a>
+
+        </ul>
+      </div>
     </section>
 
     <section id="posters">
       <div class="section-wrapper">
         <h3>Posters</h3>
 
-        <div id="poster-link-container">
+        <ul id="poster-link-list">
 
-          <a class="poster-link" href="./img/TUS_2015_Poster_Europe_Final - Copy.pdf">
-            <p>ASSC 2015</p>
+          <a href="./img/TUS_2015_Poster_Europe_Final - Copy.pdf">
+            <div class="poster-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p>ASSC 2015</p>
+                </li>
+              </div>
+            </div>
           </a>
 
-
-          <a class="poster-link" href="./img/Sanguinetti Trujillo Peterson et al 2014 VSS_Website.pdf">
-            <p>VSS 2014</p>
+          <a href="./img/Sanguinetti Trujillo Peterson et al 2014 VSS_Website.pdf">
+            <div class="poster-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p>VSS 2014</p>
+                </li>
+              </div>
+            </div>
           </a>
 
-
-          <a class="poster-link" href="./img/SPR_Poste_Draft_2014_Draft_Final_Print.pdf">
-            <p>SPR 2014</p>
+          <a href="./img/SPR_Poste_Draft_2014_Draft_Final_Print.pdf">
+            <div class="poster-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p>SPR 2014</p>
+                </li>
+              </div>
+            </div>
           </a>
 
-
-          <a class="poster-link" href="./img/1_Sanguinetti et al 2013 SPR_Draft_Final_Cactus.pptx">
-            <p>SPR 2013</p>
+          <a href="./img/1_Sanguinetti et al 2013 SPR_Draft_Final_Cactus.pptx">
+            <div class="poster-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p>SPR 2013</p>
+                </li>
+              </div>
+            </div>
           </a>
 
-
-          <a class="poster-link" href="./img/Sanguinetti_Peterson_VSS_2013.pptx">
-            <p>VSS 2013</p>
-          </a>
-
-
-          <a class="poster-link" href="./img/Sanguinetti_ Heshmati _Allen_ Peterson_SfN 2012.pdf">
-            <p>SfN 2012</p>
-          </a>
-
-
-          <a class="poster-link" href="./img/Sanguinetti_Cavanagh_Allen_Sherman_SPR_2011.pdf">
-            <p>SPR 2011</p>
-          </a>
-
-
-          <a class="poster-link" href="./img/Sanguinetti_Ash_Peterson_Allen_SPR2010.pdf">
-            <p>SPR 2010</p>
-          </a>
-
-
-          <a class="poster-link" href="./img/Sanguinetti_Allen_Peters_SfN2010.pdf">
-            <p>SfN 2010</p>
-          </a>
-
-
-          <a class="poster-link" href="./img/SfNPoster2008v3.1jayfinal.ppt ">
-            <p>SfN 2008</p>
-          </a>
-
-          <div class="poster-link-placeholder">
-            <img  class="poster-link-placeholder-image" src="./img/society-logo.jpg" width="198" height="96"></img>
+          <div class="poster-placeholder-container">
+            <div class="table-cell-container">
+              <div class="test-div">
+                <img class="test-html" src="./img/vcs_logo.jpeg" width="200" height="200"></img>
+              </div>
+            </div>
           </div>
 
+          <a href="./img/Sanguinetti_Peterson_VSS_2013.pptx">
+            <div class="poster-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p>VSS 2013</p>
+                </li>
+              </div>
+            </div>
+          </a>
 
-          <div class="poster-link-placeholder">
-            <img  class="poster-link-placeholder-image" src="./img/vcs_logo.jpeg" width="200" height="200"></img>
+          <a href="./img/Sanguinetti_ Heshmati _Allen_ Peterson_SfN 2012.pdf">
+            <div class="poster-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p>SfN 2012</p>
+                </li>
+              </div>
+            </div>
+          </a>
+
+          <div class="poster-placeholder-container">
+            <div class="table-cell-container">
+              <img  src="./img/society-logo.jpg" width="198" height="96"></img>
+            </div>
           </div>
-          <div class="poster-link-placeholder">
-            <img  class="poster-link-placeholder-image" src="./img/sfn_logo.gif" width="200" height="200"></img>
+
+          <a href="./img/Sanguinetti_Cavanagh_Allen_Sherman_SPR_2011.pdf">
+            <div class="poster-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p>SPR 2011</p>
+                </li>
+              </div>
+            </div>
+          </a>
+
+          <a href="./img/Sanguinetti_Ash_Peterson_Allen_SPR2010.pdf">
+            <div class="poster-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p>SPR 2010</p>
+                </li>
+              </div>
+            </div>
+          </a>
+
+          <div class="poster-placeholder-container">
+            <div class="table-cell-container">
+              <img class="test-html" src="./img/sfn_logo.gif" width="200" height="200"></img>
+            </div>
           </div>
 
+          <a href="./img/Sanguinetti_Allen_Peters_SfN2010.pdf">
+            <div class="poster-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p>SfN 2010</p>
+                </li>
+              </div>
+            </div>
+          </a>
 
-          <!-- <a class="poster-link" href="#">
-               <p>placeholder</p>
-               -->
+          <a href="./img/SfNPoster2008v3.1jayfinal.ppt ">
+            <div class="poster-link-container">
+              <div class="table-cell-container">
+                <li>
+                  <p>SfN 2008</p>
+                </li>
+              </div>
+            </div>
+          </a>
 
-        </div>
+        </ul>
       </div>
     </section>
 
@@ -245,34 +442,50 @@
       <div class="section-wrapper">
         <h3>Papers</h3>
         <div id="papers-container">
-          <p class="paper-citation">
+          <ul>
+            <li>
+              <p class="paper-citation">
 
-            Sanguinetti, J. L., Trujillo, L. T., Schnyer, D. M., Allen J. B., Peterson, M. A. (in press.). Increased Alpha Indexes Inhibitory Competition Across a Border. <em>Vision Research</em>.
-          </p>
+                Sanguinetti, J. L., Trujillo, L. T., Schnyer, D. M., Allen J. B., Peterson, M. A. (in press.). Increased Alpha Indexes Inhibitory Competition Across a Border. <em>Vision Research</em>.
+              </p>
+            </li>
 
-          <p class="paper-citation">
-            Goldstein, M. R., Peterson, M. J., Sanguinetti, J. L., Tononi, G.,  & Ferrarelli, F. (2015). Topographic deficits in alpha-range resting EEG activity and steady state visual evoked responses in schizophrenia. <em>Schizophrenia Research</em>, 168(1), 145-152.
-          </p>
+            <li>
+              <p class="paper-citation">
+                Goldstein, M. R., Peterson, M. J., Sanguinetti, J. L., Tononi, G.,  & Ferrarelli, F. (2015). Topographic deficits in alpha-range resting EEG activity and steady state visual evoked responses in schizophrenia. <em>Schizophrenia Research</em>, 168(1), 145-152.
+              </p>
+            </li>
 
-          <p class="paper-citation">
-            Sanguinetti, J. L., Allen, J. J. B., Peterson, M. A. (2014). The Ground Side of an Object Perceived as Shapeless yet Processed for Semantics. <em>Psychological Science</em>. 25.1 256-264.
-          </p>
+            <li>
+              <p class="paper-citation">
+                Sanguinetti, J. L., Allen, J. J. B., Peterson, M. A. (2014). The Ground Side of an Object Perceived as Shapeless yet Processed for Semantics. <em>Psychological Science</em>. 25.1 256-264.
+              </p>
+            </li>
 
-          <p class="paper-citation">
-            Sanguinetti, J. L., Smith, E., Allen, J. J. B., Hameroff, S. (2014). Human brain stimulation with transcranial ultrasound (TUS); Potential applications for mental health. In <em>Bioelectromagnetic Medicine</em>. (pp. 355-361), New York, NY: Taylor & Francis.
-          </p>
+            <li>
+              <p class="paper-citation">
+                Sanguinetti, J. L., Smith, E., Allen, J. J. B., Hameroff, S. (2014). Human brain stimulation with transcranial ultrasound (TUS); Potential applications for mental health. In <em>Bioelectromagnetic Medicine</em>. (pp. 355-361), New York, NY: Taylor & Francis.
+              </p>
+            </li>
 
-          <p class="paper-citation">
-            Cacciamani, L., Mojica, A. J., Sanguinetti, J. L., & Peterson, M. A. (2014). Semantic access occurs outside of awareness for the ground side of a figure. <em>Attention, Perception, & Psychophysics</em>, 76(8), 2531-2547.
-          </p>
+            <li>
+              <p class="paper-citation">
+                Cacciamani, L., Mojica, A. J., Sanguinetti, J. L., & Peterson, M. A. (2014). Semantic access occurs outside of awareness for the ground side of a figure. <em>Attention, Perception, & Psychophysics</em>, 76(8), 2531-2547.
+              </p>
+            </li>
 
-          <p class="paper-citation">
-            Cavanagh, J.F., Sanguinetti, J.L., Allen, J.J.B., Sherman, S.J., & Frank, M.J. (2014). The subthalamic nucleus contributes to post error slowing. <em>Journal of Cognitive Neuroscience</em>, 26. 2637–2644.
-          </p>
+            <li>
+              <p class="paper-citation">
+                Cavanagh, J.F., Sanguinetti, J.L., Allen, J.J.B., Sherman, S.J., & Frank, M.J. (2014). The subthalamic nucleus contributes to post error slowing. <em>Journal of Cognitive Neuroscience</em>, 26. 2637–2644.
+              </p>
+            </li>
 
-          <p class="paper-citation">
-            Peterson M. A., Cacciamani L., Mojica D., Sanguinetti J.L. (2012). Meaning can be accessed for the ground region of a figure, <em>Gestalt Theory</em>, 34(3/4), 297-314.
-          </p>
+            <li>
+              <p class="paper-citation">
+                Peterson M. A., Cacciamani L., Mojica D., Sanguinetti J.L. (2012). Meaning can be accessed for the ground region of a figure, <em>Gestalt Theory</em>, 34(3/4), 297-314.
+              </p>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
