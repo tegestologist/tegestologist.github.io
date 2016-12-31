@@ -125,7 +125,8 @@ section {
   min-height: 100vh;
   clear: both;
   padding-top: 3em;
-  overflow: auto; }
+  overflow: auto;
+  padding-bottom: 3em; }
 
 section#research h2 {
   visibility: hidden;
@@ -135,6 +136,12 @@ section#research h2 {
   width: 80%;
   margin-right: auto;
   margin-left: auto; }
+
+#slideshow-image {
+  float: left;
+  padding-right: 5%;
+  height: 50%;
+  width: auto; }
 
 .section-image {
   float: left;
@@ -168,9 +175,6 @@ div.table-cell-container {
   vertical-align: middle; }
   div.table-cell-container li {
     padding: 0 .5em; }
-  div.table-cell-container img {
-    width: 100%;
-    height: auto; }
 
 /* news section */
 #news {
@@ -224,6 +228,9 @@ div.news-placeholder-container {
       max-width: 100%;
       width: 100%;
       height: 5em; } }
+  div.news-placeholder-container img {
+    width: 100%;
+    height: auto; }
 
 /* poster section */
 #posters {
@@ -241,22 +248,36 @@ div.poster-link-container {
   max-width: 25%;
   width: 25%;
   height: 5em;
-  font-size: 1.45em;
   border: thin solid #f3f3f3;
   background: #9e9e9e;
-  color: #2a2a2a; }
+  color: #2a2a2a;
+  border-radius: 1em;
+  font-family: 'Alfa Slab One', sans-serif; }
+  div.poster-link-container img {
+    height: 5em;
+    width: auto; }
+  div.poster-link-container p {
+    font-size: 1.35em; }
   @media screen and (max-width: 46em) {
     div.poster-link-container {
       max-width: 50%;
       width: 50%;
-      height: 4em;
-      font-size: 1.35em; } }
+      height: 4em; }
+      div.poster-link-container img {
+        height: 4em;
+        width: auto; }
+      div.poster-link-container p {
+        font-size: 1.1em; } }
   @media screen and (max-width: 23em) {
     div.poster-link-container {
       max-width: 100%;
       width: 100%;
-      height: 3em;
-      font-size: 1.75em; } }
+      height: 4em; }
+      div.poster-link-container img {
+        height: 4em;
+        width: auto; }
+      div.poster-link-container p {
+        font-size: 1.35em; } }
   div.poster-link-container:hover {
     background: #cfc7bd; }
 
@@ -267,27 +288,54 @@ div.poster-placeholder-container {
   max-width: 25%;
   width: 25%;
   height: 5em;
-  font-size: 1.45em;
+  text-align: center;
+  display: block;
   border: thin solid #f3f3f3;
   background: #f3f3f3;
-  color: #2a2a2a; }
+  color: #f3f3f3;
+  border-radius: 1em;
+  overflow: hidden; }
+  div.poster-placeholder-container img {
+    height: 5em;
+    width: auto; }
+  div.poster-placeholder-container p {
+    font-size: 1.35em; }
   @media screen and (max-width: 46em) {
     div.poster-placeholder-container {
       max-width: 50%;
       width: 50%;
-      height: 4em;
-      font-size: 1.35em; } }
+      height: 4em; }
+      div.poster-placeholder-container img {
+        height: 4em;
+        width: auto; }
+      div.poster-placeholder-container p {
+        font-size: 1.1em; } }
   @media screen and (max-width: 23em) {
     div.poster-placeholder-container {
       max-width: 100%;
       width: 100%;
-      height: 3em;
-      font-size: 1.75em; } }
+      height: 4em; }
+      div.poster-placeholder-container img {
+        height: 4em;
+        width: auto; }
+      div.poster-placeholder-container p {
+        font-size: 1.35em; } }
+
+#society-logo {
+  background: #fdfdfd; }
+
+#vcs-logo {
+  background: #fff; }
+
+#sfn-logo {
+  background: #ebe8cf; }
+
+div.poster-image-crop-container {
+  overflow: hidden; }
 
 /* papers */
 #papers {
-  background: #b0d6ef;
-  border: thin solid #2a2a2a; }
+  background: #b0d6ef; }
 
 #papers-container {
   padding-left: 1em;

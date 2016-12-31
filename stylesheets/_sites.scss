@@ -88,6 +88,7 @@ section {
     clear:          both;
     padding-top:    3em;
     overflow:       auto;
+    padding-bottom: 3em;
 }
 
 section#research h2 {
@@ -99,6 +100,13 @@ section#research h2 {
     width:          80%;
     margin-right:   auto;
     margin-left:    auto;
+}
+
+#slideshow-image {
+    float: left;
+    padding-right:  5%;
+    height:  50%;
+    width: auto;
 }
 
 .section-image {

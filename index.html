@@ -4,11 +4,15 @@
     <meta charset="utf-8">
     <title>Site for J.L. Sanguinetti - Home</title>
     <link rel="stylesheet" href="../stylesheets/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
     <meta name="generator" content="Nanoc 4.3.4">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--[if lt IE 9]>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <![endif]-->
   </head>
   <body>
-
+    <script src="./js/bundle.js"></script>
     <a href="#top">
       <div id="top-link">
         <p>Top</p>
@@ -50,36 +54,23 @@
       <div class="section-wrapper">
         <h2>Research</h2>
 
-        <div class="story-container" id="vision">
+        <div id="slideshow-container">
+          <h3 id="slideshow-title">Title</h3>
+          <img id="slideshow-image"  src="#" alt="">
+          <p id="slideshow-text" class="story-copy">
+          <p>
 
-          <h3>Vision</h3>
-
-          <img class="section-image" src="./img/fmri_headgear_closeup.jpg" width="320" height="285" alt="closeup of Jay preparing fmri head cover on Davi" title="closeup of Jay preparing fmri head cover on Davi">
-
-          <p class="story-copy">
-            Cras posuere quis sem ut tristique. Nam eget condimentum velit. Donec et ornare nisl. Nunc eu libero consectetur, vehicula risus quis, mollis dui. Ut nec interdum nulla, eu hendrerit lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce maximus imperdiet erat et interdum.
-          </p>
         </div>
 
-        <div class="story-container" id="nibs">
-          <h3>Non-invasive Brain Stimulation</h3>
-
-          <img class="section-image" src="./img/ultrasound_to_head.png" width="320" height="240" alt="Jay applying ultrasound to side of volunteer's head" title="Jay applying ultrasound to side of volunteer's head">
-          <p class="story-copy">
-            Cras posuere quis sem ut tristique. Nam eget condimentum velit. Donec et ornare nisl. Nunc eu libero consectetur, vehicula risus quis, mollis dui. Ut nec interdum nulla, eu hendrerit lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce maximus imperdiet erat et interdum.
-          </p>
-        </div>
-
-        <div class="story-container" id="mhwb">
-          <h3>Mental Health and Well-being</h3>
-
-          <img class="section-image" src="./img/jay_white_sands_backflip.jpg" width="239" height="319" alt="Jay performing a back flip at White Sands." title="Jay performing a back flip at White Sands.">
+                <button id="about-slideshow-prev-button">
+          Previous
+        </button>
 
 
-          <p class="story-copy">
-            Cras posuere quis sem ut tristique. Nam eget condimentum velit. Donec et ornare nisl. Nunc eu libero consectetur, vehicula risus quis, mollis dui. Ut nec interdum nulla, eu hendrerit lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce maximus imperdiet erat et interdum.
-          </p>
-        </div>
+        <button id="about-slideshow-next-button">
+          Next
+        </button>
+
       </div>
     </section>
 
@@ -88,221 +79,227 @@
         <h3>News</h3>
 
         <ul id="news-link-list">
-          <a href="http://www.ustream.tv/recorded/63664670">
-            <div class="news-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <a href="http://www.ustream.tv/recorded/63664670">
+              <div class="news-link-container">
+                <div class="table-cell-container">
                   <p><cite>(Video)</cite></p>
                   <p><strong>Consciousness Central</strong></p>
-                </li>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </li>
 
-          <a href="http://www.sciencedaily.com/releases/2013/05/130515094825.htm">
-            <div class="news-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <a href="http://www.sciencedaily.com/releases/2013/05/130515094825.htm">
+              <div class="news-link-container">
+                <div class="table-cell-container">
                   <p><cite>'Good Vibration:' Brain Ultrasound Improves Mood</cite></p>
                   <p><strong>Science Daily</strong></p>
-                </li>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </li>
 
-          <a href="http://uanews.org/story/good-vibrations-mediating-mood-through-brain-ultrasound">
-            <div class="news-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <a href="http://uanews.org/story/good-vibrations-mediating-mood-through-brain-ultrasound">
+              <div class="news-link-container">
+                <div class="table-cell-container">
                   <p><cite>Mediating Mood through Brain Ultrasound</cite></p>
                   <p><strong>UA News</strong></p>
-                </li>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </li>
 
-          <a href="http://www.sciencedaily.com/releases/2013/07/130718161525.htm">
-            <div class="news-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <a href="http://www.sciencedaily.com/releases/2013/07/130718161525.htm">
+              <div class="news-link-container">
+                <div class="table-cell-container">
                   <p><cite>Mood Through Brain Ultrasound</cite></p>
                   <p><strong>Science Daily</strong></p>
-                </li>
+                </div>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <div class="news-placeholder-container">
+              <div class="table-cell-container">
+                <img src="./img/Wired_logo.png" width="320" height="66">
               </div>
             </div>
-          </a>
+          </li>
 
-          <div class="news-placeholder-container">
-            <div class="table-cell-container">
-              <img src="./img/Wired_logo.png" width="320" height="66"></img>
-            </div>
-          </div>
-
-          <a href="http://www.wired.co.uk/news/archive/2013-07/18/ultrasound-mood-change">
-            <div class="news-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <a href="http://www.wired.co.uk/news/archive/2013-07/18/ultrasound-mood-change">
+              <div class="news-link-container">
+                <div class="table-cell-container">
                   <p><cite>Ultrasound waves applied to the brain can alter patients' moods</cite></p>
                   <p><strong>Wired</strong></p>
-                </li>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </li>
 
-          <a href="http://www.indianexpress.com/news/brain-ultrasound-may-boost-mood-study/1144083/">
-            <div class="news-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <a href="http://www.indianexpress.com/news/brain-ultrasound-may-boost-mood-study/1144083/">
+              <div class="news-link-container">
+                <div class="table-cell-container">
                   <p><cite>Brain ultrasound may boost mood: study</cite></p>
                   <p><strong>The Indian Express</strong></p>
-                </li>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </li>
 
-          <a href="http://uanews.org/story/ua-study-your-brain-sees-things-you-don-t?utm_source=arizonadotedu&utm_medium=banner&utm_campaign=feature">
-            <div class="news-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <a href="http://uanews.org/story/ua-study-your-brain-sees-things-you-don-t?utm_source=arizonadotedu&utm_medium=banner&utm_campaign=feature">
+              <div class="news-link-container">
+                <div class="table-cell-container">
                   <p><cite>UA Study: Your brain sees things that you don't</cite></p>
                   <p><strong>UA News</strong></p>
-                </li>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </li>
 
-          <a href="http://www.huffingtonpost.com/2013/11/18/brain-processes-information-_n_4276870.html?utm_hp_ref=healthy-living">
-            <div class="news-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <a href="http://www.huffingtonpost.com/2013/11/18/brain-processes-information-_n_4276870.html?utm_hp_ref=healthy-living">
+              <div class="news-link-container">
+                <div class="table-cell-container">
                   <p><cite>Your brain processes information even when you're not conscious of it: study</cite></p>
                   <p><strong>Huffington Post</strong></p>
-                </li>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </li>
 
-          <a href="http://www.sciencedaily.com/releases/2013/07/130718161525.htm">
-            <div class="news-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <a href="http://www.sciencedaily.com/releases/2013/07/130718161525.htm">
+              <div class="news-link-container">
+                <div class="table-cell-container">
                   <p><cite>Your brain sees things you don't</cite></p>
                   <p><strong>Science Daily</strong></p>
-                </li>
+                </div>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <div class="news-placeholder-container">
+              <div class="table-cell-container">
+                <img src="./img/300px-PBS_Logo.png" width="300" height="160">
               </div>
             </div>
-          </a>
+          </li>
 
-          <div class="news-placeholder-container">
-            <div class="table-cell-container">
-              <img src="./img/300px-PBS_Logo.png" width="300" height="160"></img>
-            </div>
-          </div>
-
-          <a href="http://www.pbs.org/newshour/rundown/2013/11/your-brain-sees-things-that-you-dont.html">
-            <div class="news-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <a href="http://www.pbs.org/newshour/rundown/2013/11/your-brain-sees-things-that-you-dont.html">
+              <div class="news-link-container">
+                <div class="table-cell-container">
                   <p><cite>Your brain sees things that you don't</cite></p>
                   <p><strong>PBS NewsHour</strong></p>
-                </li>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </li>
 
-          <a href="https://youtu.be/8ksSiTt3uSU">
-            <div class="news-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <a href="https://youtu.be/8ksSiTt3uSU">
+              <div class="news-link-container">
+                <div class="table-cell-container">
                   <p><cite>Your brain sees everything!</cite></p>
                   <p><strong>org-here</strong></p>
-                </li>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </li>
 
-          <a href="http://www.kurzweilai.net/does-your-brain-see-things-you-dont">
-            <div class="news-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <a href="http://www.kurzweilai.net/does-your-brain-see-things-you-dont">
+              <div class="news-link-container">
+                <div class="table-cell-container">
                   <p><cite>Does your brain see things you don't?</cite></p>
                   <p><strong>Kurzweil.net</strong></p>
-                </li>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </li>
 
-          <a href="http://www.el-nacional.com/salud_y_bienestar/cerebro-puede-cosas-ojos-ven_0_299970199.html">
-            <div class="news-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <a href="http://www.el-nacional.com/salud_y_bienestar/cerebro-puede-cosas-ojos-ven_0_299970199.html">
+              <div class="news-link-container">
+                <div class="table-cell-container">
                   <p><cite>Tu cerbro puede ver cosas que tus ojos no ven</cite></p>
                   <p><strong>El Nacional</strong></p>
-                </li>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </li>
 
-          <a href="http://www.huffingtonpost.fr/2013/11/15/perception-cerveau-traitement-informations-cachees_n_4273497.html?utm_hp_ref=france">
-            <div class="news-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <a href="http://www.huffingtonpost.fr/2013/11/15/perception-cerveau-traitement-informations-cachees_n_4273497.html?utm_hp_ref=france">
+              <div class="news-link-container">
+                <div class="table-cell-container">
                   <p><cite>Perception du cerveau: il voit des choses, mais pas nous</cite></p>
                   <p><strong>Le HuffPost</strong></p>
-                </li>
+                </div>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <div class="news-placeholder-container">
+              <div class="table-cell-container">
+                <img src="./img/Reddit_logo_and_wordmark.png" width="320" height="107">
               </div>
             </div>
-          </a>
+          </li>
 
-          <div class="news-placeholder-container">
-            <div class="table-cell-container">
-              <img src="./img/Reddit_logo_and_wordmark.png" width="320" height="107"></img>
-            </div>
-          </div>
-
-          <a href="http://www.reddit.com/r/science/comments/1qlwfp/your_brain_sees_things_you_dont_a_new_study/">
-            <div class="news-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <a href="http://www.reddit.com/r/science/comments/1qlwfp/your_brain_sees_things_you_dont_a_new_study/">
+              <div class="news-link-container">
+                <div class="table-cell-container">
                   <p><cite>title-here</cite></p>
                   <p><strong>Reddit</strong></p>
-                </li>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </li>
 
-          <a href="http://science.orf.at/stories/1728392/">
-            <div class="news-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <a href="http://science.orf.at/stories/1728392/">
+              <div class="news-link-container">
+                <div class="table-cell-container">
                   <p><cite>Gehirn: Bedeutung ohne Bewusstsein</cite></p>
                   <p><strong>Science@ORF.at</strong></p>
-                </li>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </li>
 
-          <a href="http://ria.ru/studies/20131115/977120928.html">
-            <div class="news-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <a href="http://ria.ru/studies/20131115/977120928.html">
+              <div class="news-link-container">
+                <div class="table-cell-container">
                   <p><cite>Мозг "видит" знакомые объекты, даже когда человек этого не осознает</cite></p>
                   <p><strong>Pnahoboctn</strong></p>
-                </li>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </li>
 
-          <a href="http://www.vcharkarn.com/vnews/447785">
-            <div class="news-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <a href="http://www.vcharkarn.com/vnews/447785">
+              <div class="news-link-container">
+                <div class="table-cell-container">
                   <p><cite>สมอง”เห็น”แม้จิตไม่ได้”เห็น”</cite></p>
                   <p><strong>Vcharkarn.com</strong></p>
-                </li>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </li>
 
         </ul>
       </div>
@@ -314,125 +311,126 @@
 
         <ul id="poster-link-list">
 
-          <a href="./img/TUS_2015_Poster_Europe_Final - Copy.pdf">
-            <div class="poster-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <a href="./img/TUS_2015_Poster_Europe_Final.pdf">
+              <div class="poster-link-container">
+                <div class="table-cell-container">
                   <p>ASSC 2015</p>
-                </li>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </li>
 
-          <a href="./img/Sanguinetti Trujillo Peterson et al 2014 VSS_Website.pdf">
-            <div class="poster-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <a href="./img/Sanguinetti_Trujillo_Peterson_et_al_2014_VSS_Website.pdf">
+              <div class="poster-link-container">
+                <div class="table-cell-container">
                   <p>VSS 2014</p>
-                </li>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </li>
 
-          <a href="./img/SPR_Poste_Draft_2014_Draft_Final_Print.pdf">
-            <div class="poster-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <a href="./img/SPR_Poste_Draft_2014_Draft_Final_Print.pdf">
+              <div class="poster-link-container">
+                <div class="table-cell-container">
                   <p>SPR 2014</p>
-                </li>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </li>
 
-          <a href="./img/1_Sanguinetti et al 2013 SPR_Draft_Final_Cactus.pptx">
-            <div class="poster-link-container">
-              <div class="table-cell-container">
-                <li>
+          <!-- Find this resource
+          <li>
+            <a href="./img/1_Sanguinetti et al 2013 SPR_Draft_Final_Cactus.pptx">
+              <div class="poster-link-container">
+                <div class="table-cell-container">
                   <p>SPR 2013</p>
-                </li>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </li>
+          -->
 
-          <div class="poster-placeholder-container">
-            <div class="table-cell-container">
-              <div class="test-div">
-                <img class="test-html" src="./img/vcs_logo.jpeg" width="200" height="200"></img>
-              </div>
-            </div>
-          </div>
 
-          <a href="./img/Sanguinetti_Peterson_VSS_2013.pptx">
-            <div class="poster-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <div class="poster-placeholder-container" id="vcs-logo">
+              <img src="./img/vcs_logo.jpeg" width="200" height="200">
+            </div>
+          </li>
+
+          <li>
+            <a href="./img/Sanguinetti_Peterson_VSS_2013.pptx">
+              <div class="poster-link-container">
+                <div class="table-cell-container">
                   <p>VSS 2013</p>
-                </li>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </li>
 
-          <a href="./img/Sanguinetti_ Heshmati _Allen_ Peterson_SfN 2012.pdf">
-            <div class="poster-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <a href="./img/Sanguinetti_Heshmati_Allen_Peterson_SfN_2012.pdf">
+              <div class="poster-link-container">
+                <div class="table-cell-container">
                   <p>SfN 2012</p>
-                </li>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </li>
 
-          <div class="poster-placeholder-container">
-            <div class="table-cell-container">
-              <img  src="./img/society-logo.jpg" width="198" height="96"></img>
+          <li>
+            <div class="poster-placeholder-container" id="society-logo">
+              <img src="./img/society-logo.jpg" width="198" height="96">
             </div>
-          </div>
+          </li>
 
-          <a href="./img/Sanguinetti_Cavanagh_Allen_Sherman_SPR_2011.pdf">
-            <div class="poster-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <a href="./img/Sanguinetti_Cavanagh_Allen_Sherman_SPR_2011.pdf">
+              <div class="poster-link-container">
+                <div class="table-cell-container">
                   <p>SPR 2011</p>
-                </li>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </li>
 
-          <a href="./img/Sanguinetti_Ash_Peterson_Allen_SPR2010.pdf">
-            <div class="poster-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <a href="./img/Sanguinetti_Ash_Peterson_Allen_SPR2010.pdf">
+              <div class="poster-link-container">
+                <div class="table-cell-container">
                   <p>SPR 2010</p>
-                </li>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </li>
 
-          <div class="poster-placeholder-container">
-            <div class="table-cell-container">
-              <img class="test-html" src="./img/sfn_logo.gif" width="200" height="200"></img>
+          <li>
+            <div class="poster-placeholder-container" id="sfn-logo">
+              <img src="./img/sfn_logo.gif" width="200" height="200">
             </div>
-          </div>
+          </li>
 
-          <a href="./img/Sanguinetti_Allen_Peters_SfN2010.pdf">
-            <div class="poster-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <a href="./img/Sanguinetti_Allen_Peters_SfN2010.pdf">
+              <div class="poster-link-container">
+                <div class="table-cell-container">
                   <p>SfN 2010</p>
-                </li>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </li>
 
-          <a href="./img/SfNPoster2008v3.1jayfinal.ppt ">
-            <div class="poster-link-container">
-              <div class="table-cell-container">
-                <li>
+          <li>
+            <a href="./img/SfNPoster2008v3.1jayfinal.ppt ">
+              <div class="poster-link-container">
+                <div class="table-cell-container">
                   <p>SfN 2008</p>
-                </li>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </li>
 
         </ul>
       </div>
@@ -491,7 +489,7 @@
     </section>
 
     <footer>
-      <p>J.L. Sanguinetti &copy 2016</p>
+      <p>J.L. Sanguinetti &copy; 2016</p>
     </footer>
   </body>
 </html>

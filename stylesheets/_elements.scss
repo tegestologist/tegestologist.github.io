@@ -56,10 +56,6 @@ div.table-cell-container {
     li {
         padding: 0 .5em;
     }
-    img {
-        width:      100%;
-        height:     auto;
-    }
 }
 
 /* news section */
@@ -104,6 +100,10 @@ div.news-placeholder-container {
     border: thin solid $color-3;
     background: $color-3;
     color: $color-1;
+    img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 /* poster section */
@@ -119,19 +119,37 @@ div.news-placeholder-container {
 @mixin poster-table {
     @include table-container;
     height: 5em;
-    font-size: 1.45em;
+    img {
+        height: 5em;
+        width: auto;
+    }
+    p {
+        font-size: 1.35em;
+    }
 
     @media screen and (max-width: 46em) {
         max-width: 50%;
         width: 50%;
         height: 4em;
-        font-size: 1.35em;
+        img {
+            height: 4em;
+            width: auto;
+        }
+        p {
+            font-size: 1.1em;
+        }
     }
     @media screen and (max-width: 23em) {
         max-width: 100%;
         width: 100%;
-        height: 3em;
-        font-size: 1.75em;
+        height: 4em;
+        img {
+            height: 4em;
+            width: auto;
+        }
+        p {
+            font-size: 1.35em;
+        }
     }
 }
 
@@ -140,6 +158,8 @@ div.poster-link-container {
     border: thin solid $color-2;
     background: $color-4;
     color: $color-1;
+    border-radius: 1em;
+    font-family: 'Alfa Slab One', sans-serif;
     &:hover {
         background:     $color-5;
     }
@@ -147,16 +167,33 @@ div.poster-link-container {
 
 div.poster-placeholder-container {
     @include poster-table;
+    text-align: center;
+    display: block;
     border: thin solid $color-2;
     background: $color-2;
-    color: $color-1;
+    color: $color-2;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+#society-logo {
+    background: #fdfdfd;
+}
+#vcs-logo {
+    background: #fff;
+}
+#sfn-logo {
+    background: #ebe8cf;
+}
+
+div.poster-image-crop-container {
+    overflow: hidden;
 }
 
 /* papers */
 
 #papers {
     background: $color-3;
-    border: thin solid $color-1;
 }
 
 $text-indent: -2em;
